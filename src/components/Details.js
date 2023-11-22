@@ -53,7 +53,7 @@ const Details = () => {
             {
                 logindata.length === 0 ? "errror" :
                     <>
-                        <h1>detials page</h1>
+                        <h1><a href='https://pet-lover-zqvf.vercel.app/Home'>Welcome to Homepage</a></h1>
                         <h1>{logindata[0].name}</h1>
                         <Button onClick={userlogout}>LogOut</Button>
 
